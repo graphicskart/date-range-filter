@@ -1,13 +1,21 @@
 {
-  "name": "date-range-selector",
+  "name": "date-range-filter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://graphicskart.github.io/date-range-filter",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "moment": "^2.24.0",
     "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-datepicker": "1.4.1",
     "react-dom": "^16.8.3",
+    "react-outside-click-handler": "^1.2.2",
     "react-scripts": "2.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
